@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>张三 - 个人网站</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== 导航栏 ========== -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">张三</a>
+      <ul class="nav-links">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#projects">项目</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== 首页 Hero ========== -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>你好，我是 <span class="highlight">张三</span></h1>
+      <p class="subtitle">热爱编程 · 追求极致 · 持续学习</p>
+      <p class="intro">一个对技术充满热情的前端开发者，喜欢创造美好的数字体验。</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">查看作品</a>
+        <a href="#contact" class="btn btn-outline">联系我</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 关于我 ========== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">关于我</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            我是一名充满热情的前端开发者，专注于构建优雅、高效、用户友好的网站和应用。
+            我相信技术的力量可以改变世界，也相信好的设计能让生活更美好。
+          </p>
+          <p>
+            在工作之余，我喜欢阅读技术博客、参与开源项目、以及探索新的编程语言和框架。
+            保持好奇心和学习热情是我不断前进的动力。
+          </p>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-label">姓名</span>
+              <span class="info-value">张三</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">邮箱</span>
+              <span class="info-value">zhangsan@example.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">位置</span>
+              <span class="info-value">中国 · 北京</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">状态</span>
+              <span class="info-value">开放合作</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 技能 ========== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">我的技能</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML / CSS</h3>
+          <p>精通语义化 HTML 和现代 CSS 布局，包括 Flexbox、Grid 和响应式设计</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>熟练使用原生 JavaScript 及 React、Vue 等主流框架进行开发</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>工具链</h3>
+          <p>熟悉 Git 版本控制、Webpack 构建工具、以及 CI/CD 流程</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>UI / UX</h3>
+          <p>注重用户体验和界面设计，追求简洁美观的视觉效果</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 项目 ========== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">项目作品</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>个人博客系统</h3>
+            <p>一个轻量级的静态博客，支持 Markdown 写作和代码高亮</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>天气应用</h3>
+            <p>实时天气查询应用，支持城市搜索和一周天气预报</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>API</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>待办事项</h3>
+            <p>简洁高效的待办事项管理工具，支持分类和本地存储</p>
+            <div class="project-tags">
+              <span>React</span><span>LocalStorage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 联系 ========== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">联系我</h2>
+      <p class="contact-desc">如果你对我的项目感兴趣，或者想和我交流技术，欢迎随时联系！</p>
+      <div class="contact-links">
+        <a href="mailto:zhangsan@example.com" class="contact-item">
+          <span class="contact-icon">📧</span>
+          <span>发送邮件</span>
+        </a>
+        <a href="https://github.com" target="_blank" class="contact-item">
+          <span class="contact-icon">💻</span>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 页脚 ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 张三. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
