@@ -80,4 +80,4 @@ document.querySelectorAll(".skill-card, .project-card, .info-item, .contact-item
   observer.observe(el);
 });
 
-console.log("🎉 个人网站已就绪！");
+console.log("个人网站已就绪！");
