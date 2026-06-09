@@ -295,10 +295,10 @@ body {
 .project-image-wrapper {
   width: 100%;
   height: 160px;
-  overflow: hidden;          /* 保留：裁切超出部分 */
-  background: #f8f9fc;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1a2e, #2d2d44, #1e1e30);
   border-radius: 12px 12px 0 0;
-  position: relative;        /* 新增：为子元素定位提供参考 */
+  position: relative;
 }
 
 .project-image {
