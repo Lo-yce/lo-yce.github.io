@@ -277,20 +277,19 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-.project-card::before {
+.project-card:nth-child(1)::before,
+.project-card:nth-child(2)::before {
   content: "";
   display: block;
   height: 160px;
+}
+
+.project-card:nth-child(1)::before {
   background: linear-gradient(135deg, #4f46e5, #7c3aed);
 }
 
 .project-card:nth-child(2)::before {
   background: linear-gradient(135deg, #059669, #10b981);
-}
-
-.project-card:nth-child(3)::before {
-  content: none;
-  height: 0;
 }
 
 .project-image-wrapper {
