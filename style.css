@@ -302,13 +302,12 @@ body {
 }
 
 .project-image {
-  width: 100%;               /* 保留 */
-  height: 100%;              /* 保留 */
-  object-fit: cover;         /* 保留：等比裁剪填充容器 */
-  object-position: center;   /* 新增：确保裁剪居中，避免关键内容被裁掉 */
-  display: block;            /* 保留：消除底部间隙 */
-  position: absolute;        /* 新增：脱离文档流，精确填满父容器 */
-  top: 0;                    /* 新增 */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  position: absolute;
+  top: 0;
   left: 0;
 }
 
