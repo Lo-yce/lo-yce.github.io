@@ -368,6 +368,104 @@ body {
   border-radius: 20px;
 }
 
+/* ---------- 友情链接 ---------- */
+.friends {
+  padding: 100px 0;
+}
+
+.friends-desc {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: -32px;
+  margin-bottom: 40px;
+}
+
+.friends-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 8px 4px 24px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  /* 隐藏滚动条但保留滚动功能 */
+  scrollbar-width: thin;
+  scrollbar-color: #c7d2fe transparent;
+}
+
+.friends-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.friends-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.friends-scroll::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 4px;
+}
+
+.friends-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a5b4fc;
+}
+
+.friend-card {
+  flex: 0 0 240px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  background: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.friend-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(79, 70, 229, 0.15);
+}
+
+.friend-avatar {
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.friend-info {
+  min-width: 0;
+}
+
+.friend-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+  /* 超出显示省略号 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.friend-desc {
+  font-size: 13px;
+  color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* ---------- 联系 ---------- */
 .contact {
   padding: 100px 0;
