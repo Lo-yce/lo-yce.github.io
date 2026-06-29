@@ -151,21 +151,27 @@
     <div class="container">
       <h2 class="section-title">友情链接</h2>
       <p class="friends-desc">感谢这些朋友们，欢迎互相访问交流</p>
-      <div class="friends-scroll">
+      <div class="friends-grid">
         <!-- ===== 友链卡片：复制下方整段 <a>...</a> 即可添加新友链 =====
-             必填：href、domain、friend-icon 的 domain
+             必填：href、domain
              选填：name、desc
         -->
         <a href="https://nijika-jia.github.io/links/" target="_blank" rel="noopener" class="friend-card">
-          <div class="friend-icon-wrap">
-            <img src="https://www.google.com/s2/favicons?domain=nijika-jia.github.io&sz=128" alt="" class="friend-icon" loading="lazy">
+          <div class="friend-avatar">
+            <img
+              src="https://favicon.im/nijika-jia.github.io?size=64&larger=true"
+              alt=""
+              class="friend-avatar-img"
+              loading="lazy"
+              onerror="this.style.display='none';this.parentElement.classList.add('fallback')"
+            >
+            <span class="friend-avatar-letter">N</span>
           </div>
           <div class="friend-body">
             <h3 class="friend-name">Nijika 的友链</h3>
             <p class="friend-desc">一个有趣的友链聚集地</p>
-            <span class="friend-domain">nijika-jia.github.io</span>
           </div>
-          <i class="bi bi-arrow-up-right friend-arrow"></i>
+          <span class="friend-domain">nijika-jia.github.io</span>
         </a>
         <!-- ===== 复制结束 ===== -->
       </div>
